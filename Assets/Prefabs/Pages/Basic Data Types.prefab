@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 406242}
+  - 114: {fileID: 11484178}
+  m_Layer: 0
+  m_Name: Basic Data Types
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.925541, y: -1.7386085, z: -0.35453236}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11484178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cccc13ce30d3c49a66b9ed7565b1ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Basic Data Types
+  Message: "Computers are simple devices and they can only represent simple information.\r\nAll
+    complex information is built upon these basic data types.\r\nBasic data types
+    are numbers, characters, true/false statements, arrays and structures.\r\nSome
+    data types, such as string (which represents words), are fundamentally an array
+    of characters."
+  Example: "A whole number is an integer (int Health = 100;)\r\nA character is a char
+    (char Initial = \"E\";)\r\nA true/false statement is a bool (bool IsAlive = true;)\r\nAn
+    array is a list of a data type declared using [] (int[] Numbers = [1, 2, 3, 4,
+    5;])\r\nA structure is a collection of different data types to represent an object\n(A
+    character object will contain int health, string name, int speed etc)"
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Name
+      value: Variable
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Message
+      value: A variable stores information.  Each type of variable stores different
+        information.  Variables are written as type, name, and value.
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Example
+      value: A characters health could be declared as an integar (whole number) variable,
+        for example, int health = 100;
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109176}
+  m_IsPrefabParent: 1

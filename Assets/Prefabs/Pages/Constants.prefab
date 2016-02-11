@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 406242}
+  - 114: {fileID: 11484178}
+  m_Layer: 0
+  m_Name: Constants
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.925541, y: -1.7386085, z: -0.35453236}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11484178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84cccc13ce30d3c49a66b9ed7565b1ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Constants
+  Message: "A constant is declared using the keyword const.\r\nIt is used on variables
+    that will not be changed during runtime.\r\nUse a const for values you know won't
+    change."
+  Example: "const int MaxHealth = 100;\r\nUsing a const in this context means if we
+    reference MaxHealth when setting the player health, we will never go over 100."
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Name
+      value: Variable
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Message
+      value: A variable stores information.  Each type of variable stores different
+        information.  Variables are written as type, name, and value.
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Example
+      value: A characters health could be declared as an integar (whole number) variable,
+        for example, int health = 100;
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109176}
+  m_IsPrefabParent: 1
